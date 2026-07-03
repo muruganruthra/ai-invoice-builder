@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaRobot, FaMagic } from "react-icons/fa";
-import { generateInvoice } from "../services/gemini";
+import { generateInvoice } from "../Services/gemini";
 
 export default function AIInput({ invoice, setInvoice }) {
   const [prompt, setPrompt] = useState("");
