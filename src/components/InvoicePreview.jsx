@@ -1,5 +1,5 @@
 import { calculateInvoice } from "../utils/calculate";
-import { downloadInvoicePDF } from "../services/pdf";
+import { downloadInvoicePDF } from "../Services/pdf";
 
 export default function InvoicePreview({ invoice }) {
   const totals = calculateInvoice(invoice);
